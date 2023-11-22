@@ -1,0 +1,18 @@
+.search_table {
+    padding: 5px;
+    width: 400px;
+    border: 1xp solid gray;
+    margin-bottom: 5px;
+}
+
+.header_table {
+    display: flex;
+    align-items: center;
+    .delete_btn {
+        font-size: 35px;
+        &:hover{
+        font-size: 40px;
+        transition: .5S;
+        }
+    }
+}

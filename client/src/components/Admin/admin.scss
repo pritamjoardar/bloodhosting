@@ -1,0 +1,21 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Lora:ital@1&family=Montserrat:wght@500;600&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto:wght@100;400&family=Rubik+Puddles&family=Rubik:wght@300&display=swap');
+}
+
+
+$lora:'Lora', serif;
+
+.admin_header {
+    border: 1px solid red;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        width: fit-content;
+        font-size: 30px;
+        font-family: $lora;
+    }
+}
+
